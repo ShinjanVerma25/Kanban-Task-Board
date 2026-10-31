@@ -1,16 +1,92 @@
-# React + Vite
+# Kanban Task Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Kanban Task Board built using React.js.  
+This project was created as part of my **Interview Preparation Sheet 2** machine coding task.
 
-Currently, two official plugins are available:
+The board helps manage tasks by moving them between **Todo, In Progress, and Completed** sections.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Move tasks between different statuses
+- Set task priority
+- Add due dates
+- Search tasks by title
+- Filter tasks by priority
+- Filter tasks by status
+- Save tasks using LocalStorage
+- Responsive design for desktop and mobile
+- Empty state when there are no tasks
+- No-results message when search or filters don't match
+- Basic form validation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+- LocalStorage
+- Git & GitHub
+- Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── TaskForm.jsx
+│   ├── TaskCard.jsx
+│   ├── KanbanColumn.jsx
+│   └── SearchFilter.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+## How to Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ShinjanVerma25/Kanban-Task-Board.git
+```
+
+Go to the project folder:
+
+```bash
+cd Kanban-Task-Board
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The project will run on the local development server provided by Vite.
+
+## Links
+
+**Drive Link:**  
+https://drive.google.com/drive/folders/1GIXTAKGxCV1qWOWTdH3LlNMdpoyXgWxP?usp=sharing
+
+**GitHub Repository:**  
+https://github.com/ShinjanVerma25/Kanban-Task-Board
+
+**Live Project:**  
+https://shinjan-kanban-task-board.vercel.app/
+
+## Interview Preparation
+
+**A17 Interview Preparation Sheet 2**
+
+Machine Coding Task: **Kanban Board**
