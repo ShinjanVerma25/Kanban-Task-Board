@@ -87,6 +87,6 @@ https://shinjan-kanban-task-board.vercel.app/
 
 ## Interview Preparation
 
-**A17 Interview Preparation Sheet 2**
+**Interview Preparation Sheet 2**
 
 Machine Coding Task: **Kanban Board**
